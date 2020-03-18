@@ -1064,9 +1064,6 @@ void Initialize(v8::Local<v8::Object> exports,
   dict.Set(
       "Protocol",
       Protocol::GetConstructor(isolate)->GetFunction(context).ToLocalChecked());
-  dict.Set("ServiceWorkerContext", ServiceWorkerContext::GetConstructor(isolate)
-                                       ->GetFunction(context)
-                                       .ToLocalChecked());
   dict.SetMethod("fromPartition", &FromPartition);
 }
 
