@@ -10,6 +10,12 @@
   <message name="IDS_DEFAULT_PRINT_DOCUMENT_TITLE" desc="Default title for a print document">
     Untitled Document
   </message>
+  <message name="IDS_PDF_TOOLTIP_TWO_UP_VIEW_ENABLE" desc="Button tooltip for the button which enables displaying two pages of a PDF on the screen horizontally" translateable="false">
+    Enable two-up view
+  </message>
+  <message name="IDS_PDF_TOOLTIP_TWO_UP_VIEW_DISABLE" desc="Button tooltip for the button which stops displaying two pages of a PDF on the screen horizontally" translateable="false">
+    Disable two-up view
+  </message>
 
   <!-- Desktop Capturer API -->
   <message name="IDS_DESKTOP_MEDIA_PICKER_SINGLE_SCREEN_NAME" desc="Name for screens in the desktop media picker UI when there is only one monitor.">
